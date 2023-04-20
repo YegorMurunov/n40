@@ -298,6 +298,13 @@
      min-width: 150px;
      max-width: 150px;
 }
+ #wrapper .section13 .section__table .table__row .table__item:last-child {
+     max-width: 100%;
+    flex: 1 1 auto;
+}
+ #wrapper .section13 .section__table .table__row .table__item:last-child::before {
+    width: 100%;
+}
  #wrapper .section13 .section__table .table__row .table__item .table__title {
      color: #000;
      font-size: 20px;
