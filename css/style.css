@@ -154,7 +154,6 @@
      flex: 1 1 auto;
 }
  #wrapper .section2 {
-/*      min-height: 500px; */
      background: url("../img/block2.png") top right/contain no-repeat;
 }
  #wrapper .section4 {
@@ -197,18 +196,21 @@
  #wrapper .section7 {
      background-color: #0d0d0d;
 }
- #wrapper .section8 .container .section-hero__container .section__title {
-     transform: translate(-80px, 0);
-}
  #wrapper .section8 .container .section-hero__container .section__content {
      margin-top: 20px;
 }
  #wrapper .section9 {
-     background: #000 url("../img/block9.png") 20% center/contain no-repeat;
      min-height: 500px;
 }
  #wrapper .section9 .container .section__title {
      text-align: center;
+}
+ #wrapper .section9 .container .section__content {
+    margin-top: 5px;
+ }
+ #wrapper .section9 .container .section__content .section__img {
+     width: 100%;
+     height: auto;
 }
  #wrapper .section10 {
      margin-top: 0;
@@ -285,10 +287,9 @@
      height: 1px;
      background-color: #5b9bd5;
 }
- #wrapper .section13 .section__table .table__row .table__item:last-child {
-    flex: 1 1 auto;
-    max-width: 100%;
- }
+ #wrapper .section13 .section__table .table__row:not(:last-child) .table__item:last-child {
+     flex: 1 1 auto;
+}
  #wrapper .section13 .section__table .table__row:not(:last-child) .table__item:last-child::before {
      width: 100%;
 }
