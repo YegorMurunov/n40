@@ -328,6 +328,14 @@ body, html {
     object-fit: cover;
     margin: 0 auto;
 }
+#wrapper .section13 {
+    padding: 50px 10px;
+}
+#wrapper .section13 .section__smalltitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
 #wrapper .section13 .section__table {
     overflow: auto;
     background-color: #C3C3C9;
@@ -359,10 +367,11 @@ body, html {
 #wrapper .section13 .section__table .table__row .table__item {
     width: 150px;
     min-width: 150px;
-    max-width: 150px;
+    max-width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: 1 1 auto;
 }
 #wrapper .section13 .section__table .table__row .table__item:last-child {
     max-width: 100%;
