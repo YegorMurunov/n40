@@ -115,19 +115,21 @@ body, html {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
+    max-width: 400px;
     width: 100%;
     gap: 30px;
+    margin: 0 auto;
 }
 #wrapper .section .container .section__icons .icons__item {
-    width: 64px;
+    width: 75px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
 }
 #wrapper .section .container .section__icons .icons__item .icons__img {
-    width: 56px;
-    height: 56px;
+    width: 64px;
+    height: 64px;
 }
 #wrapper .section .container .section__icons .icons__item .icons__text {
     font-size: 12px;
@@ -295,6 +297,7 @@ body, html {
     background: url("../img/block11.png") center/cover no-repeat;
     min-height: 500px;
     position: relative;
+    transform: translate(0, -20px);
 }
 #wrapper .section11 .container .section-customTitle {
     text-align: center;
@@ -357,6 +360,9 @@ body, html {
     width: 150px;
     min-width: 150px;
     max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #wrapper .section13 .section__table .table__row .table__item:last-child {
     max-width: 100%;
